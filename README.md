@@ -64,8 +64,8 @@ DATABASE_URL=postgres://<username>:<password>@localhost:5432/country_db in your 
 
 ```bash
 GET /countries/population
-GET /countries/all
-GET /countries/flag
+GET /countries/AvailableCountries
+GET /countries/flag/images
 ```
 
 # Controllers
