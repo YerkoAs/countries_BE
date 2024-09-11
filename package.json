@@ -1,15 +1,18 @@
 {
   "name": "create-exp-sq",
   "version": "1.0.0",
-  "description": "",
+  "description": "back end countries",
   "main": "index.js",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "create-exp-sq": "bin/cli.js"
+  },
   "scripts": {
     "start": "node src/server",
-    "dev": "nodemon src/server"
+    "dev": "nodemon src/server",
+    "lint": "eslint ."
   },
   "keywords": [],
-  "author": "",
+  "author": "yerko asbun",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.7",
